@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>CatPhotoApp</h1>
+    </header>
+
+    <!-- Cat Photos Section -->
+    <section>
+      <h3>Cat Photots</h3>
+      <div class="">
+        <p class="">
+          Everyone loves
+          <a
+            href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            >cute cats</a
+          >
+          online
+        </p>
+        <p class="">
+          See more
+          <a
+            href="https://freecatphotoapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >cat photos</a
+          >
+          in our gallery.
+        </p>
+      </div>
+      <div class="">
+        <img src="./src/relaxing-cat.jpg" alt="A playful cat" />
+      </div>
+    </section>
+
+    <!-- Cat List section -->
+    <section>
+      <h3>Cat Lists</h3>
+      <div class="">
+        <h4>Things cats love:</h4>
+        <div class="">
+          <ul>
+            <li class="">catnip</li>
+            <li class="">laser pointers</li>
+            <li class="">lasagna</li>
+          </ul>
+        </div>
+        <div class="">
+          <img src="./src/lasagna.jpg" alt="A dish of Lasgna" />
+          <figcaption>Cats love lasgna.</figcaption>
+        </div>
+      </div>
+
+      <div class="">
+        <h4>Top 3 things cats hate</h4>
+        <div class="">
+          <ul>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+          </ul>
+        </div>
+        <div class="">
+          <img src="./src/cats.jpg" alt="Cat's that hate each other" />
+          <figcaption>Cats hate other cats.</figcaption>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+      <h3>Cat Form</h3>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Is your cat an indoor or outdoor cat?</legend>
+          <input type="radio" name="cat-type" id="indoor" value="Indoor" />
+          <label for="indoor">Indoor</label>
+          <input type="radio" name="cat-type" id="outdoor" value="Outdoor" />
+          <label for="outdoor">Outdoor</label>
+        </fieldset>
+        <fieldset>
+          <legend>What's your cat's personality?</legend>
+          <input
+            type="checkbox"
+            name="cat-personality"
+            id="loving"
+            value="Loving"
+          />
+          <label for="loving">Loving</label>
+          <input
+            type="checkbox"
+            name="cat-personality"
+            id="lazy"
+            value="Lazy"
+          />
+          <label for="lazy">Lazy</label>
+          <input
+            type="checkbox"
+            name="cat-personality"
+            id="energetic"
+            value="Energetic"
+          />
+          <label for="energetic">Energetic</label>
+        </fieldset>
+        <div class="">
+          <input type="text" placeholder="cat photo URL" name="cat-photo-url" />
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        No Copyright -
+        <a
+          href="https://www.freecodecamp.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >freeCodeCamp.org</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
