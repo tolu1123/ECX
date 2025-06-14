@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="w-full h-vh poppins-regular">
+    <main
+      class="w-full h-full macOSBg flex flex-col justify-between items-center"
+    >
+      <!-- The nav  -->
+      <header class="w-full flex justify-between items-center p-2">
+        <h1 class="text-lg font-regular">
+          <!-- apple icon  -->
+          <span class="text-2xl">
+            <i class="fa-brands fa-apple"></i>
+          </span>
+
+          <span class="">Messenger</span>
+        </h1>
+        <nav class="flex flex-row gap-3">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-none text-white"
+            >File</a
+          >
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-none text-white"
+            >Edit</a
+          >
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-none text-white"
+            >View</a
+          >
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-none text-white"
+            >Go</a
+          >
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-none text-white"
+            >Window</a
+          >
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="decoration-none text-white"
+            >Help</a
+          >
+        </nav>
+
+        <div class="flex flex-row justify-between items-center gap-3">
+          <div class="flex justify-between items-center gap-3">
+            <!-- The cast icon -->
+            <span class="inline-block">
+              <i class="fa-regular fa-tv"></i>
+            </span>
+            <!--  -->
+            <span class="inline-block">
+              <i class="fa-solid fa-a"></i>
+            </span>
+            <!-- The volume icon -->
+            <span class="inline-block">
+              <i class="fa-solid fa-volume-slash"></i>
+            </span>
+            <!-- The wifi icon -->
+            <span class="inline-block">
+              <i class="fa-solid fa-wifi"></i>
+            </span>
+            <!-- The user icon -->
+            <span class="inline-block">
+              <i class="fa-regular fa-square-user"></i>
+            </span>
+            <!-- The search icon -->
+            <span class="inline-block">
+              <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+            </span>
+            <!--  -->
+            <span class="flex flex-col gap-0.25 text-tiny">
+              <i class="fa-solid fa-toggle-off"></i>
+              <i class="fa-solid fa-toggle-on"></i>
+            </span>
+          </div>
+          <div class="flex justify-between items-center">
+            <img src="" alt="" class="" />
+            <p class="">Thu 11:22</p>
+          </div>
+        </div>
+      </header>
+
+      <!-- The main section -->
+      <section class="grid grid-cols-3 backdrop-opacity-20 rounded-2xl">
+        <!-- Left part -->
+        <div class="border-r">
+          <!-- Three small dots -->
+          <div class="">
+            <span class=""></span>
+            <span class=""></span>
+            <span class=""></span>
+          </div>
+
+          <!-- The Chat header -->
+          <div class="p-5">
+            <!-- The main Chat header -->
+            <div class="flex justify-between items-center">
+              <div class="flex items-center gap-2">
+                <img
+                  src="./src/me.jpg"
+                  alt="mE"
+                  class="rounded-full size-12 object-cover object-center border-ring"
+                />
+                <h3 class="">Chats</h3>
+              </div>
+
+              <div class="w-fit flex items-center gap-2">
+                <span class="inline-block">
+                  <i class="fa-duotone fa-regular fa-ellipsis"></i>
+                </span>
+                <span class="inline-block">
+                  <i class="fa-solid fa-video"></i>
+                </span>
+                <span class="inline-block">
+                  <i class="fa-light fa-pen-to-square"></i>
+                </span>
+              </div>
+            </div>
+            <!-- Chat search -->
+            <div class="">
+              <!-- Search icon -->
+              <span class="inline-block">
+                <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
+              </span>
+
+              <!-- Input element -->
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search"
+                class=""
+              />
+            </div>
+          </div>
+
+          <!-- The Chat list -->
+          <div class="">
+            <!-- Each Chat -->
+            <div class="">
+              <div class="">
+                <!-- The img container -->
+                <div class="">
+                  <img src="" alt="" class="" />
+                </div>
+                <!-- The green dot -->
+                <span class=""></span>
+              </div>
+              <!-- The message preview -->
+              <div class="">
+                <p class="chatName">Babe ❤️</p>
+                <p class="chatText">Okay, see ya! ❤️</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Messaging function -->
+        <div class="">
+          <!-- Chat messaging header-->
+          <div class="">
+            <!-- The image, name and status -->
+            <div class="">
+              <!-- The image section -->
+              <div class="">
+                <!-- Image container -->
+                <div class="">
+                  <img src="" alt="" class="" />
+                </div>
+                <!-- The green dot -->
+                <span class=""></span>
+              </div>
+
+              <!-- The name and status -->
+              <div class="">
+                <h3 class="chatName">Babe ❤️</h3>
+                <p class="chatStatus">Active now</p>
+              </div>
+            </div>
+
+            <!-- The icons -->
+            <div class="">
+              <!-- Call icon -->
+              <span class="inline-block">
+                <i class="fa-solid fa-phone"></i>
+              </span>
+              <!-- Video icon -->
+              <span class="inline-block">
+                <i class="fa-solid fa-video"></i>
+              </span>
+              <!-- info icon -->
+              <span class="inline-block">
+                <i class="fa-solid fa-circle-info"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- The chat messages -->
+          <div class="">
+            <!-- My message -->
+            <div class="myMsg"></div>
+
+            <!-- their message -->
+            <div class="">
+              <!-- Image section -->
+              <div class="">
+                <!-- Image container -->
+                <div class="">
+                  <img src="" alt="" class="" />
+                </div>
+                <!-- The green dot -->
+                <span class=""></span>
+              </div>
+
+              <!-- The main message -->
+              <div class="theirMsg">
+                How do you like new Messenger design? 😅
+              </div>
+            </div>
+          </div>
+
+          <!-- The messaging part for input -->
+          <div class="">
+            <!-- Some icon set -->
+            <div class="">
+              <!-- Grid icon -->
+              <span class="inline-block">
+                <i class="fa-solid fa-grid-round-2"></i>
+              </span>
+              <!-- Camera icon -->
+              <span class="inline-block">
+                <i class="fa-solid fa-camera"></i>
+              </span>
+              <!-- Image icon -->
+              <span class="inline-block">
+                <i class="fa-regular fa-image"></i>
+              </span>
+              <!-- Mic icon -->
+              <span class="inline-block">
+                <i class="fa-solid fa-microphone"></i>
+              </span>
+            </div>
+
+            <!-- The input -->
+            <div class="">
+              <!-- The icon section -->
+              <span class="inline-block">
+                <i class="fa-solid fa-face-smile"></i>
+              </span>
+
+              <!-- The input element -->
+              <input
+                type="text"
+                name="message"
+                id="message"
+                class=""
+                placeholder="Aa"
+              />
+            </div>
+            <!-- The like icon -->
+            <div class="">
+              <span class="inline-block">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Chat Profile section -->
+        <div class="border-l">
+          <!-- The profile header -->
+          <div class="">
+            <!-- The image, name and status -->
+            <div class="">
+              <!-- The image section -->
+              <div class="">
+                <!-- Image container -->
+                <div class="">
+                  <img src="" alt="" class="" />
+                </div>
+                <!-- The green dot -->
+                <span class=""></span>
+              </div>
+
+              <!-- The name and status -->
+              <div class="">
+                <h3 class="chatName">Babe ❤️</h3>
+                <p class="chatStatus">Active now</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- The profile settings -->
+          <div class="">
+            <div class="">
+              <p class="">Set up a chat</p>
+              <span class="inline-block">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- The last section -->
+            <div class="">
+              <div class="">
+                <p class="">Shared files</p>
+                <span class="inline-block">
+                  <i class="fa-solid fa-chevron-up"></i>
+                </span>
+              </div>
+              <ul class="">
+                <li class="">
+                  <span class="">
+                    <img
+                      src="./src/pdf.png"
+                      alt="pdf image"
+                      width="40"
+                      height="40"
+                      class=""
+                    />
+                  </span>
+                  <span class="">File 2142.pdf</span>
+                  <span class=""
+                    ><i class="fa-regular fa-arrow-down-to-line"></i
+                  ></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="">
+              <p class="">Shared photos</p>
+              <span class="inline-block">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- The footer section -->
+      <footer class=""></footer>
+    </main>
+  </body>
+</html>
